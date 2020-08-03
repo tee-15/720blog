@@ -13,24 +13,18 @@ body{
     justify-content: space-around;
 }
 #regForm {
-    top: -3.3em;
-    background-color: #000;
+    top: -6.3em;
+    background-color: hotpink;
     margin: 100px auto;
     font-family: raleway;
     padding: 40px;
     width: 39%;
     min-width: 300px;
-    animation: mymove 5s infinite;
     position: relative;
     height: 46.5rem;
     z-index: 0;
     left: 5em;
     color: white;
-}
-@keyframes mymove{
-    from{background-color: #000;}
-    to{background-color: hotpink;}
-    50%{box-shadow: 10px 20px 30px grey;}
 }
 h1{
     text-align: center;
@@ -134,22 +128,20 @@ img.image-tanya{
     display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
+    margin-top: -0.9em;
 }
-.header {
-    animation: shake 5s;
+.header{
     position: relative;
     z-index: 1;
     height: 5rem;
+    display: flex;
+    justify-content: space-around;
 
 }
-@keyframes shake {
-    0% {
-      transform: rotate(-10deg); }
-    50% {
-      transform: rotate(5deg); }
-    100% {
-      transform: rotate(0); } 
-}      
+p.list {
+    font-size: 1.5em;
+}
+     
 .header__link {
    margin: 1em;
    color: black; 
@@ -165,33 +157,74 @@ img.image-tanya{
 .header__left {
   display: none; 
 }  
-.container-about {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: -4em;
-}
+
 .container-text {
     margin-bottom: 1em;
-    text-decoration: overline;
-}
-.container-blog {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 3em;
     background-color: hotpink;
-    height: 23rem;
+    text-align: center;
+    margin-top: -12.7em;
+    width: 77em;
+    height: 6em;
+    margin-left: -5em;
+}
+.container-about {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em
+}
+h2.about {
+    font-size: 2.3em;
+    color: white;
+    
+}
+.social-media {
+    background-color: cornflowerblue;
+    height: 36em;
+    width: 46.3em;
+    margin-top: -12.6em;
+    margin-left: -0.9em;
+}
+h2.media-text {
+    font-size: 2.4em;
+    text-align: center;
     color: white;
 }
-p.news {
-    line-height: 1.5em;
+h2.what {
+    font-size: 1.9em;
+    margin-bottom: 1em;
 }
-.footer-icon {
-    background-color: black;
-    height: 10rem;
-    margin-top: 0em;
-}
-img {
-    width: 5em;
-    margin-top: 3em;
+p.message {
+    margin-bottom: 5em;
    
+}
+h4.facebook {
+    line-height: 4em;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 3em;
+}
+img.face {
+    position: relative;
+    top: 4em;
+}
+.book{
+    position: relative;
+    top: 4em;
+}
+.tube{
+    position: relative;
+    top: 4em;
+}
+.you{
+    position: relative;
+    top: 4em;
+}
+.blog {
+    text-align: center;
+    font-size: 1.9em;
+}
+.text-area{
+    border: 2px solid hotpink;
+    height: 15em;
+    margin-top: -1.9em;
 }
